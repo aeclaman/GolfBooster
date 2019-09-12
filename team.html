@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Klein Cain Golf</title>
+  <link rel="shortcut icon" href="static/images/KCGolfLogo-1.jpeg" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- Place your kit's code here -->
+  <script src="https://kit.fontawesome.com/d8de6de4d7.js"></script>
+
+  <!-- Main HTML Style CSS-->
+  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+</head>
+
+<body class="alternate-body">
+
+  <!-- navbar -->
+  <header class="navbar-custom navbar navbar-expand-sm bg-light flex-column flex-md-row bd-navbar">
+    <a class="navbar-brand" href="index.html">
+      <img src="static/images/ballicon.png" alt="logo" style="width:40px; height:40px">
+    </a>
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html"
+            onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="schedule.html"
+            onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="team.html"
+            onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="tourney.html">Fundraiser</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Forms
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="waiver.html">Transporation Waiver Form</a>
+            <a class="dropdown-item" href="2019GolfTourney.html">Golf Tournament Sponser/Sign Up Form</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="index.html#contact-section"
+            onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+  </header>
+  <!-- jumbotron & intro -->
+
+  <!-- <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <h1 class="display-4"><b>Klein Cain High School Golf</b></h1>
+        <p class="lead">Welcome to our site.</p>
+      </div>
+    </div> -->
+
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row space"></div>
+    <div class="row space"></div>
+    <div class="row card-deck">
+      <div class="card h-100">
+        <img class="card-img-top img-responsive w-100" src="static/images/jordan.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Varsity Girls</h5>
+          <p class="card-text">Jordan McAlister<br>Player 2<br>Player 3<br>Player 4<br>Player 5</p>
+        </div>
+      </div>
+      <div class="card h-100">
+        <img class="card-img-top img-responsive w-100" src="static/images/varsityboys.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Varsity Boys</h5>
+          <p class="card-text">Davis Byrd<br>Kevin Claman<br>Blake Doss<br>Andrew Spaulding<br>Matthew Spaulding</p>
+        </div>
+      </div>
+    </div>
+    <div class="row space"></div>
+    <div class="row space"></div>
+    <div class="row space"></div>
+    <div class="row card-deck">
+      <div class="card">
+        <img class="card-img-top img-responsive w-100" src="static/images/jvgirls.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JV Girls</h5>
+          <p class="card-text">Player 1<br>Player 2<br>Player 3<br>Player 4</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-responsive w-100" src="static/images/jvboys.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JV Boys</h5>
+          <p class="card-text">Player 1<br>Player 2<br>Player 3<br>Player 4</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="row space"></div>
+    <div class="row space"></div>
+    <div class="row space"></div>
+    <div class="row card-deck">
+      <div class="card">
+        <img class="card-img-top w-100" src="static/images/jvgirls.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JV 2 Girls</h5>
+          <p class="card-text">Player 1<br>Player 2<br>Player 3<br>Player 4</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top w-100" src="static/images/jvboys.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">JV 2 Boys</h5>
+          <p class="card-text">Player 1<br>Player 2<br>Player 3<br>Player 4</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="row space"></div>
+    <div class="row space"></div>
+    <div class="row space"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+  <!-- <script src="static/js/data.js"></script> -->
+  <!-- <script src="static/js/app.js"></script> -->
+</body>
+
+</html>
