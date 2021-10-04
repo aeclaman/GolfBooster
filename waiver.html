@@ -31,20 +31,29 @@
     </a>
     <div class="navbar-nav-scroll">
       <ul class="navbar-nav bd-navbar-nav flex-row">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html"
-            onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link active" href="schedule.html"
             onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Schedule</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link " href="team.html"
             onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Team</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Team
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="team1.html">Boys 2021/2022</a>
+            <a class="dropdown-item" href="team2.html">Girls 2021/2022</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link " href="tourney.html">Fundraiser</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="booster.html">Booster Club</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
@@ -58,6 +67,10 @@
         <li class="nav-item">
           <a class="nav-link " href="index.html#contact-section"
             onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="sponsor.html"
+            onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Sponsors</a>
         </li>
       </ul>
     </div>

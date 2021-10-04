@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="alternate-body">
+<body class="plain-body">
 
   <!-- navbar -->
   <header class="navbar-custom navbar navbar-expand-sm bg-light flex-column flex-md-row bd-navbar">
@@ -31,20 +31,29 @@
     </a>
     <div class="navbar-nav-scroll">
       <ul class="navbar-nav bd-navbar-nav flex-row">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html"
-            onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Home</a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link active" href="schedule.html"
             onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Schedule</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link " href="team.html"
             onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Team</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Team
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="team1.html">Boys 2021/2022</a>
+            <a class="dropdown-item" href="team2.html">Girls 2021/2022</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link " href="tourney.html">Fundraiser</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="booster.html">Booster Club</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
@@ -59,79 +68,163 @@
           <a class="nav-link " href="index.html#contact-section"
             onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">Contact</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="sponsor.html"
+            onclick="ga('send', 'event', 'Navbar', 'Community links', 'Bootstrap');">Sponsors</a>
+        </li>
       </ul>
     </div>
 
   </header>
-  <!-- jumbotron & intro -->
-
-  <!-- <div class="jumbotron jumbotron-fluid text-center">
-      <div class="container">
-        <h1 class="display-4"><b>Klein Cain High School Golf</b></h1>
-        <p class="lead">Welcome to our site.</p>
-      </div>
-    </div> -->
-
 
   <!-- Page Content -->
   <div class="container">
     <div class="row space"></div>
     <div class="row space"></div>
-    <div class="row card-deck">
-      <div class="card h-100">
-        <img class="card-img-top img-responsive w-100" src="static/images/jordan.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Varsity Girls</h5>
-          <p class="card-text">Jordan McAlister<br>Player 2<br>Player 3<br>Player 4<br>Player 5</p>
+    <div class="row">
+        <h1 class="text-center text-white"> 2021/2022 </h1>
+    </div>
+    <!--<div class="row">
+        <img class="frame" src="static/images/golf.jpg"> --> <!--style="width:700px;height:500px;">-->
+    <!--</div> -->
+    <div class="row space"></div>
+    <div class="row space"></div>
+    <div class="row space"></div>
+      <div class="row">
+        <div class="col-sm text-center mt-5"><h2 class="text-white">Varsity Girls</h2>
+          <h3>
+          <ul class="text-center text-white list-unstyled">
+            <li>Zoe Hobbs, 2024</li>
+            <li>Xiadani Islas, 202?</li>
+            <li>Yaretzi Islas,202?</li>
+            <li>Taylor Theriox ,2024</li>
+            <li>Audrey Veiseh,2025</li>
+            </ul>
+          </h3>
         </div>
-      </div>
-      <div class="card h-100">
-        <img class="card-img-top img-responsive w-100" src="static/images/varsityboys.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Varsity Boys</h5>
-          <p class="card-text">Davis Byrd<br>Kevin Claman<br>Blake Doss<br>Andrew Spaulding<br>Matthew Spaulding</p>
+
+        <div class="col-sm text-center mt-5"><h2 class="text-white">JV Girls</h2>
+          <h3>
+          <ul class="text-center text-white list-unstyled">
+            <li>Keira Holley, 2025</li>
+            <li>Layla Mendez, 2025</li>
+            <li>E Phillips, 2022</li>
+            <li>Savannah Phillips, 2024</li>
+            <li>Player 5, 202?</li>
+            </ul>
+          </h3>
         </div>
-      </div>
+
+      <!-- <div class="col-sm">
+        <img class="img-responsive w-100" src="static/images/jvgirls.jpeg" alt="Card image cap">
+      </div> -->
     </div>
     <div class="row space"></div>
     <div class="row space"></div>
     <div class="row space"></div>
-    <div class="row card-deck">
-      <div class="card">
-        <img class="card-img-top img-responsive w-100" src="static/images/jvgirls.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">JV Girls</h5>
-          <p class="card-text">Player 1<br>Player 2<br>Player 3<br>Player 4</p>
-        </div>
+    <div class="row">
+      <!-- <div class="col-sm">
+        <img class="img-responsive w-100" src="static/images/varsityboys.jpeg" alt="Card image cap">
+      </div> -->
+      <div class="col-sm text-center mt-5">
+          <h2 class="text-white">Varsity Boys A</h2>
+          <h3>
+            <ul class="text-center text-white list-unstyled">
+              <li>Davis Byrd, 2022</li>
+              <li>Blake Doss, 2022</li>
+              <li>Carols Garza, 2023</li>
+              <li>Andrew Spaulding, 2022</li>
+              <li>Matthew Spaulding, 2022</li>
+            </ul>
+          </h3>
       </div>
-      <div class="card">
-        <img class="card-img-top img-responsive w-100" src="static/images/jvboys.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">JV Boys</h5>
-          <p class="card-text">Player 1<br>Player 2<br>Player 3<br>Player 4</p>
-        </div>
-
-      </div>
+      <!-- <div class="col-sm text-center mt-5">
+        <h2 class="text-white">Class</h2>
+        <h3>
+          <ul class="text-center text-white list-unstyled">
+            <li>2022</li>
+            <li>2022</li>
+            <li>2023</li>
+            <li>2022</li>
+            <li>2022</li>
+          </ul>
+        </h3>
+    </div> -->
+      <div class="col-sm text-center mt-5">
+        <h2 class="text-white">Varsity Boys B</h2>
+        <h3>
+          <ul class="text-center text-white list-unstyled">
+            <li>Nathan Aloisio, 2022</li>
+            <li>Keaton Blume, 2024</li>
+            <li>Jack Pope, 2023</li>
+            <li>Adrian Rodriguez, 2024</li>
+            <li>Karson Sam, 2024</li>
+          </ul>
+        </h3>
+    </div>
+    <!-- <div class="col-sm text-center mt-5">
+      <h2 class="text-white">Class</h2>
+      <h3>
+        <ul class="text-center text-white list-unstyled">
+          <li>2022</li>
+          <li>2024</li>
+          <li>2023</li>
+          <li>2024</li>
+          <li>2024</li>
+        </ul>
+      </h3>
+  </div> -->
     </div>
     <div class="row space"></div>
     <div class="row space"></div>
-    <div class="row space"></div>
-    <div class="row card-deck">
-      <div class="card">
-        <img class="card-img-top w-100" src="static/images/jvgirls.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">JV 2 Girls</h5>
-          <p class="card-text">Player 1<br>Player 2<br>Player 3<br>Player 4</p>
-        </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top w-100" src="static/images/jvboys.jpeg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">JV 2 Boys</h5>
-          <p class="card-text">Player 1<br>Player 2<br>Player 3<br>Player 4</p>
-        </div>
+    <!-- <div class="row space"></div> -->
+    <div class="row">
+      <!-- <div class="row"> -->
+        <div class="col-sm text-center mt-5"><h2 class="text-white">JV Boys A</h2>
+          <div class="row">
+            <div class="col-sm">
+          <h3>
+            <ul class="text-center team-names list-unstyled">
+              <li>Lex Barlow, 2024</li>
+              <li>Jaxson Dittmer, 2025</li>
+              <li>Brayden Huertas, 2024</li>
+              <li>Josh Johnson, 2024</li>
+              <li>Luke K, 2024</li>
+              <li>Tate Loosely, 2023</li>
+              <li>Sartaj Mann, 2023</li>
+              <li>Jake Robinson, 2025</li>
+              <li>Ashton ??, 202?</li>
+              <li>Teagan ??, 202?</li>
+            </ul>
+          </h3>
+          </div>
 
-      </div>
+        </div></div>
+        <div class="col-sm text-center mt-5"><h2 class="text-white">JV Boys B</h2>
+          <div class="row">
+            <div class="col-sm">
+          <h3>
+            <ul class="text-center team-names list-unstyled">
+              <li>Preston Adamson, 2025</li>
+              <li>Ben Althoff, 2025</li>
+              <li>Isaac Ciravolo, 2025</li>
+              <li>Luke Claman, 2025</li>
+              <li>Cooper Eddins, 2025</li>
+              <li>Kameron Griner, 2025</li>
+              <li>Matthew Jenson, 2025</li>
+              <li>Zak Katsafanas, 2025</li>
+              <li>Dylan Read, 2025</li>
+              <li>Dominic Rivera, 2025</li>
+              <li>Logan Stout, 2024</li>
+            </ul>
+          </h3>
+          </div>
+
+        </div></div>
+      <!-- </div> -->
+      <!-- <div class="col-sm">
+        <img class="im-responsive w-100" src="static/images/jvboys.jpeg" alt="Card image cap">
+      </div> -->
     </div>
     <div class="row space"></div>
     <div class="row space"></div>
